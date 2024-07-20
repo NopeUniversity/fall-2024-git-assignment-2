@@ -34,13 +34,19 @@ def main():
 
     logging.info("Welcome to the [not-so] random number calculator!")
 
-    op = randrange(2)
+    op = randrange(4)
     if op == 0:
         logging.debug("Adding!")
         result = add()
     elif op == 1:
         logging.debug("Subtracting!")
         result = subtract()
+    elif op == 2:
+        logging.debug("Adding then subtracting!")
+        result = add() + subtract()
+    elif op == 3:
+        logging.debug("Subtracting then adding!")
+        result = subtract() - add()
 
     logging.info(f"The result is {result}")
 
