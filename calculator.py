@@ -12,6 +12,7 @@ def add():
 def subtract():
     return randrange(1000) - randrange(1000)
 
+
 def divide():
     return randrange(1000) / randrange(1000)
 
@@ -53,6 +54,7 @@ def main():
     elif op == 3:
         logging.debug("Multiplying!")
         result = multiply()
+
 
     logging.info(f"The result is {result}")
 
