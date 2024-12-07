@@ -1,3 +1,4 @@
 INFO: Welcome to the [not-so] random number calculator!
 DEBUG: Multiplying!
 INFO: The result is 706936
+
