@@ -49,10 +49,10 @@ def main():
         logging.debug("Subtracting!")
         result = subtract()
     elif op == 2:
-        print("Dividing!")
+        logging.debug("Dividing!")
         result = divide()
     elif op == 3:
-        print("Multiplying!")
+        logging.debug("Multiplying!")
         result = multiply()
 
 
